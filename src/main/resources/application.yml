@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_URL:localhost:3306}/${DB_NAME:wechat-zl}?autoReconnect=true&useUnicode=true&characterEncoding=utf8
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_PASS:root}
+  jpa:
+    database: mysql
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect  #不加这句则默认为myisam引擎
+  cache:
+    type: caffeine
+    caffeine:
+      spec: maximumSize=500,expireAfterAccess=3600s   #最后一次写入或访问后经过固定时间过期
+  profiles:
+    active: ${ENV:prod}
+logging:
+  file: ./logback.log
