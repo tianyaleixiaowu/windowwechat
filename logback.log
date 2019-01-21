@@ -21,3 +21,26 @@
 2019-01-21 10:38:36.429  INFO 30186 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2019-01-21 10:38:36.432  INFO 30186 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2019-01-21 10:38:36.449  INFO 30186 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-21 10:44:46.029  INFO 30263 --- [main] c.t.w.WindowwechatApplicationTests       : Starting WindowwechatApplicationTests on weifengdeMacBook-Pro.local with PID 30263 (started by wuwf in /Users/wuwf/project/windowwechat)
+2019-01-21 10:44:46.031  INFO 30263 --- [main] c.t.w.WindowwechatApplicationTests       : The following profiles are active: local
+2019-01-21 10:44:47.452  INFO 30263 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-21 10:44:47.567  INFO 30263 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103ms. Found 1 repository interfaces.
+2019-01-21 10:44:48.388  INFO 30263 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae84830b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-21 10:44:48.885  INFO 30263 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-21 10:44:49.024  INFO 30263 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-21 10:44:49.027  INFO 30263 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-21 10:44:49.417  INFO 30263 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-21 10:44:49.722  INFO 30263 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-21 10:44:49.733  WARN 30263 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-01-21 10:44:50.677  INFO 30263 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-21 10:44:50.702  INFO 30263 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-01-21 10:44:51.991  INFO 30263 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-21 10:44:53.853  INFO 30263 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 10:44:53.965  WARN 30263 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-21 10:44:54.779  INFO 30263 --- [main] c.t.w.WindowwechatApplicationTests       : Started WindowwechatApplicationTests in 9.483 seconds (JVM running for 10.945)
+2019-01-21 10:44:55.025  INFO 30263 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-21 10:44:55.029  INFO 30263 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-21 10:44:55.033  INFO 30263 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-21 10:44:55.054  INFO 30263 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

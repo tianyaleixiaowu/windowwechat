@@ -15,7 +15,7 @@ public class MessageEntity extends BaseEntity {
 
     private String msgID;
     private String type;
-    private Long time;
+    //private Long time;
     private String atlist;
     private String fromWxid;
     private String sendWxid;
@@ -29,7 +29,7 @@ public class MessageEntity extends BaseEntity {
                 ", content='" + content + '\'' +
                 ", msgID='" + msgID + '\'' +
                 ", type='" + type + '\'' +
-                ", time=" + time +
+                //", time=" + time +
                 ", atlist='" + atlist + '\'' +
                 ", fromWxid='" + fromWxid + '\'' +
                 ", sendWxid='" + sendWxid + '\'' +
@@ -54,13 +54,13 @@ public class MessageEntity extends BaseEntity {
         this.type = type;
     }
 
-    public Long getTime() {
-        return time;
-    }
-
-    public void setTime(Long time) {
-        this.time = time;
-    }
+    //public Long getTime() {
+    //    return time;
+    //}
+    //
+    //public void setTime(Long time) {
+    //    this.time = time;
+    //}
 
     public String getAtlist() {
         return atlist;
